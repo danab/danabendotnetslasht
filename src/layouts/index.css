@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --text-color: #242729;
+  --link1-color: #006db3;
+  --link2-color: #c41c00;
+  --link3-color: #6a0080;
+
+  --header-size: 70px;
+}
+#wrapper {
+  color: var(--text-color);
+  display: grid;
+  max-width: 600px;
+  margin: auto;
+  grid-template-areas:
+    'header nav'
+    'body body';
+}
+
+.logo {
+  grid-area: header;
+  margin: 0;
+  height: var(--header-size);
+  width: var(--header-size);
+  width: calc(var(--header-size) + 10px);
+  line-height: var(--header-size);
+  text-align: center;
+  color: white;
+  transition: all 0.6s ease;
+}
+
+.logo.about {
+  background: var(--link1-color);
+}
+
+.logo.projects {
+  background: var(--link2-color);
+}
+
+.logo.contact {
+  background: var(--link3-color);
+}
+nav {
+  grid-area: nav;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.menu-item {
+  list-style-type: none;
+}
+.menu-item a {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  height: var(--header-size);
+  line-height: var(--header-size);
+  display: inline-block;
+  border-bottom: 0px solid #fff;
+  transition: all 0.3s ease;
+  color: #333;
+}
+li.menu-item a:hover {
+  text-decoration: none;
+}
+li.menu-item:nth-child(1) a:hover,
+li.menu-item:nth-child(1) a.active {
+  border-bottom: 7px solid var(--link1-color);
+}
+
+li.menu-item:nth-child(2) a:hover,
+li.menu-item:nth-child(2) a.active {
+  border-bottom: 7px solid var(--link2-color);
+}
+
+li.menu-item:nth-child(3) a:hover,
+li.menu-item:nth-child(3) a.active {
+  border-bottom: 7px solid var(--link3-color);
+}
+.main {
+  grid-area: body;
+}
+
+.project-card {
+  /* HT: Samuel Thornton https://codepen.io/sdthornton/pen/wBZdXq */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border-radius: 5px;
+}
+
+.project-card.odd {
+  flex-direction: row-reverse;
+}
+
+.project-card-text {
+  flex: 1;
+  padding: 0 24px 0 0;
+}
+
+.project-card.odd .project-card-text {
+  padding: 0 0 0 24px;
+}
+
+.project-card-text h3 {
+  margin-top: 0;
+}
+
+.project-card-image {
+  flex: 0 0 200px;
+}
+
+.project-card-image img {
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 0;
+}
+
+ul li ul {
+  margin-top: 0;
+}
+ul li li {
+  margin-bottom: 0;
+  list-style-type: circle;
+}
+@media (max-width: 500px) {
+  #wrapper {
+    grid-template-areas:
+      'header'
+      'nav'
+      'body';
+  }
+  .logo {
+    width: auto;
+  }
+
+  .main {
+    padding: 0 1rem;
+  }
+
+  h2 {
+    margin-top: 1.5rem;
+  }
+  .project-card-image {
+    flex: 0 0 100px;
+  }
+}
