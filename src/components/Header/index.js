@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = ({ pathName, ...rest }) => {
   // This works because routing is super simple, but could be flimsy in the future...
   const page =
-    pathName === '/'
+    pathName === '/t'
       ? 'about'
       : pathName === '/contact' ? 'contact' : 'projects'
   return (
@@ -13,17 +13,17 @@ const Header = ({ pathName, ...rest }) => {
       <nav>
         <ul>
           <li className="menu-item">
-            <Link exact activeClassName="active" to="/">
+            <Link exact activeClassName="active" to="/t">
               About
             </Link>
           </li>
           <li className="menu-item">
-            <Link activeClassName="active" to="/projects">
+            <Link activeClassName="active" to="/t/projects">
               Projects
             </Link>
           </li>
           <li className="menu-item">
-            <Link activeClassName="active" to="/contact">
+            <Link activeClassName="active" to="/t/contact">
               Contact
             </Link>
           </li>
