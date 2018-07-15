@@ -6,7 +6,7 @@ const Header = ({ pathName, ...rest }) => {
   const page =
     pathName === '/t'
       ? 'about'
-      : pathName === '/contact' ? 'contact' : 'projects'
+      : pathName === '/t/contact' ? 'contact' : 'projects'
   return (
     <Fragment>
       <h1 className={`logo ${page}`}>DB</h1>
