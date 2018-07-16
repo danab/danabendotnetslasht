@@ -3,11 +3,12 @@ import Link from 'gatsby-link'
 
 const Header = ({ pathName, ...rest }) => {
   // This works because routing is super simple, but could be flimsy in the future...
-  console.log(pathName)
   const page =
-    pathName === '/t'
+    pathName === '/t' || pathName === '/t/'
       ? 'about'
-      : pathName === '/t/contact' ? 'contact' : 'projects'
+      : pathName === '/t/contact' || pathName === '/t/contact/'
+        ? 'contact'
+        : 'projects'
   return (
     <Fragment>
       <h1 className={`logo ${page}`}>DB</h1>
