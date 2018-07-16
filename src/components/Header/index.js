@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 
 const Header = ({ pathName, ...rest }) => {
   // This works because routing is super simple, but could be flimsy in the future...
+  console.log(pathName)
   const page =
     pathName === '/t'
       ? 'about'
