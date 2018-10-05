@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
+import React from 'react'
 import Helmet from 'react-helmet'
 
-const Contact = () => (
-  <Fragment>
+import Layout from '../../components/layout'
+
+const Contact = ({ location }) => (
+  <Layout location={location}>
     <Helmet title="Dana Bennett - Contact" />
     <div>
       <h2> Contact </h2>
@@ -29,7 +30,7 @@ const Contact = () => (
         </ul>
       </div>
     </div>
-  </Fragment>
+  </Layout>
 )
 
 export default Contact

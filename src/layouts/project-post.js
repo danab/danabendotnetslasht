@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
 // import '../css/blog-post.css'; // make it pretty!

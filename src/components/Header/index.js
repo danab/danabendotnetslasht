@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
 
-const Header = ({ pathName, ...rest }) => {
+const Header = ({ pathName }) => {
   // This works because routing is super simple, but could be flimsy in the future...
   const page =
     pathName === '/t' || pathName === '/t/'
@@ -15,12 +15,17 @@ const Header = ({ pathName, ...rest }) => {
       <nav>
         <ul>
           <li className="menu-item">
-            <Link exact activeClassName="active" to="/t">
+            <Link activeClassName="active" to="/t/">
               About
             </Link>
           </li>
           <li className="menu-item">
-            <Link activeClassName="active" to="/t/projects">
+            <Link
+              getProps={({ isPartiallyCurrent }) => ({
+                className: isPartiallyCurrent ? 'active' : '',
+              })}
+              to="/t/projects"
+            >
               Projects
             </Link>
           </li>

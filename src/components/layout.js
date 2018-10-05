@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
-import './index.css'
+import Header from './Header'
+import '../layouts/index.css'
 
 const TemplateWrapper = ({ children, location }) => (
   <div id="wrapper">
@@ -37,12 +37,12 @@ const TemplateWrapper = ({ children, location }) => (
       <meta name="theme-color" content="#ffffff" />
     </Helmet>
     <Header pathName={location.pathname} />
-    <div className="main">{children()}</div>
+    <div className="main">{children}</div>
   </div>
 )
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.node,
 }
 
 export default TemplateWrapper

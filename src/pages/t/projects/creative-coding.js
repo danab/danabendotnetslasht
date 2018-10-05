@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import React from 'react'
 
+import Layout from '../../../components/layout'
 import PageWithCards from '../../../components/PageWithCards'
 
 const projectInfo = [
@@ -31,8 +30,10 @@ const projectInfo = [
 const blurb =
   "Code is a way of expressing myself. Some of my favorite coding projects involve making small games, creative coding using math or simple physics, and data visualization with D3. Please have a look at some of the things I've been working on."
 
-const CreativeCoding = () => (
-  <PageWithCards title="Creative Coding" blurb={blurb} info={projectInfo} />
+const CreativeCoding = ({ location }) => (
+  <Layout location={location}>
+    <PageWithCards title="Creative Coding" blurb={blurb} info={projectInfo} />
+  </Layout>
 )
 
 export default CreativeCoding

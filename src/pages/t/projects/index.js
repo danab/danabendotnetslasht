@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import React from 'react'
 
+import Layout from '../../../components/layout'
 import PageWithCards from '../../../components/PageWithCards'
 
 const projectInfo = [
@@ -40,8 +39,10 @@ const projectInfo = [
 ]
 
 const blurb = ''
-const Projects = () => (
-  <PageWithCards title="Projects" blurb={blurb} info={projectInfo} />
+const Projects = ({ location }) => (
+  <Layout location={location}>
+    <PageWithCards title="Projects" blurb={blurb} info={projectInfo} />
+  </Layout>
 )
 
 export default Projects
