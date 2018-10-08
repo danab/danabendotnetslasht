@@ -1,7 +1,10 @@
 ---
-path: "/t/projects/dropclicks"
-date: "2018-04-01T17:12:33.962Z"
-title: "DropClicks"
+path: '/t/projects/dropclicks'
+date: '2018-04-11T17:12:33.962Z'
+title: 'DropClicks'
+type: 'normal'
+blurb: "A game made with React. It's fun and mobile friendly."
+img: '/screenshots/dropclicks-screen.png'
 ---
 
 <img width="200" src="/screenshots/dropclicks-screen.png" style="float: right; margin: 0 0 1em 1em" />

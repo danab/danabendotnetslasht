@@ -1,7 +1,10 @@
 ---
-path: "/t/projects/mandelbrot"
-date: "2018-04-12T19:12:33.962Z"
-title: "Mandelbrot"
+path: '/t/projects/mandelbrot'
+date: '2018-04-12T19:12:33.962Z'
+title: 'Mandelbrot'
+type: 'creative'
+img: '/screenshots/mandelbrot-screen.png'
+blurb: 'Somehow I made it through my Math degree without understanding the Mandelbrot Set. I decided to change that.'
 ---
 
 <img width="200" src="/screenshots/mandelbrot-screen.png" style="float: right; margin: 0 0 1em 1em" />

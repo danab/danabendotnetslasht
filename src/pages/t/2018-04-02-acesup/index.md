@@ -1,7 +1,10 @@
 ---
-path: "/t/projects/aces-up"
-date: "2018-04-03T17:12:33.962Z"
-title: "Aces Up"
+path: '/t/projects/aces-up'
+date: '2018-04-03T17:12:33.962Z'
+title: 'Aces Up'
+type: 'normal'
+blurb: 'A game made with React. Grandmother approved! Simple yet lots of replay value.'
+img: '/screenshots/acesup-screen.png'
 ---
 
 <img width="200" src="/screenshots/acesup-screen.png" style="float: right; margin: 0 0 1em 1em" />

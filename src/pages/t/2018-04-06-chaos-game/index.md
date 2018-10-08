@@ -1,7 +1,10 @@
 ---
-path: "/t/projects/chaos-game"
-date: "2018-04-07T17:12:33.962Z"
-title: "Chaos Game"
+path: '/t/projects/chaos-game'
+date: '2018-04-07T17:12:33.962Z'
+title: 'Chaos Game'
+type: 'creative'
+img: '/screenshots/bouncing-balls-screen.png'
+blurb: 'From a Numberphile video. A simple algorithm provides surprising fractal results.'
 ---
 
 My introduction to the "Chaos Game" was from the excellent Youtube channel [Numberphile](https://www.youtube.com/watch?v=kbKtFN71Lfs)

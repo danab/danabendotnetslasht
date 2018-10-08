@@ -30,7 +30,7 @@ const ProjectCard = ({ path, title, blurb, img, idx }) => (
       <p>{blurb}</p>
     </div>
     <SmartLink className="project-card-image" to={path}>
-      <img width="200" src={img} alt="Aces Up Game Logo" />
+      <img width="200" src={img} alt={`${title} logo`} />
     </SmartLink>
   </div>
 )
@@ -43,7 +43,9 @@ const Projects = ({ title, blurb, info }) => (
       <div>
         <p style={{ marginBottom: '40px' }}>{blurb}</p>
 
-        {info.map((info, i) => <ProjectCard key={i} {...info} idx={i} />)}
+        {info.map((info, i) => (
+          <ProjectCard key={i} {...info} idx={i} />
+        ))}
       </div>
     </div>
   </Fragment>

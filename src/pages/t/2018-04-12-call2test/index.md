@@ -1,7 +1,10 @@
 ---
-path: "/t/projects/call2test"
-date: "2018-04-12T17:12:33.962Z"
-title: "Call2Test"
+path: '/t/projects/call2test'
+date: '2018-04-12T19:12:33.962Z'
+title: 'Call2Test'
+type: 'normal'
+blurb: 'Randomization Software for Drug Courts'
+img: '/screenshots/call2test-screen.png'
 ---
 
 <img width="200" src="/screenshots/call2test-screen.png" style="float: right; margin: 0 0 1em 1em" />
