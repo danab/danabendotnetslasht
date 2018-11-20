@@ -3,7 +3,7 @@ path: '/t/projects/chaos-game'
 date: '2018-04-07T17:12:33.962Z'
 title: 'Chaos Game'
 type: 'creative'
-img: '/screenshots/bouncing-balls-screen.png'
+img: '/screenshots/chaos-game-screen-1.png'
 blurb: 'From a Numberphile video. A simple algorithm provides surprising fractal results.'
 ---
 
