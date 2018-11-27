@@ -9,7 +9,7 @@ import formatQueryData from '../../../utils/formatQueryData'
 export const query = graphql`
   {
     allMarkdownRemark(
-      filter: { frontmatter: { type: { ne: "creative" } } }
+      filter: { frontmatter: { type: { nin: ["creative", "baseball"] } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
