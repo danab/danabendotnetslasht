@@ -6,4 +6,5 @@ title: 'Bouncing Balls'
 img: '/screenshots/bouncing-balls-screen.png'
 type: 'creative'
 stub: true
+tags: ['js', 'canvas', 'creative']
 ---

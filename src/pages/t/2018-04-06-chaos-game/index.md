@@ -5,6 +5,7 @@ title: 'Chaos Game'
 type: 'creative'
 img: '/screenshots/chaos-game-screen-1.png'
 blurb: 'From a Numberphile video. A simple algorithm provides surprising fractal results.'
+tags: ['js', 'math', 'creative']
 ---
 
 My introduction to the "Chaos Game" was from the excellent Youtube channel [Numberphile](https://www.youtube.com/watch?v=kbKtFN71Lfs)

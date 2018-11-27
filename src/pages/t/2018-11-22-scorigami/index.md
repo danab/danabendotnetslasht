@@ -5,6 +5,7 @@ title: 'MLB Scorigami'
 type: 'baseball'
 img: '/screenshots/scorigami-screen.png'
 blurb: 'A historical look of every professional baseball game played, and the most popular resulting scores.'
+tags: ['react', 'data-viz', 'baseball']
 ---
 
 <a href="https://scorigami.danaben.net/t">

@@ -5,6 +5,7 @@ title: 'ConnectComply'
 type: 'normal'
 blurb: 'Android and iOS app for clients checking in to their drug courts Call2test systems.'
 img: '/screenshots/connectcomply-screen-1.png'
+tags: ['react', 'react-native', 'work']
 ---
 
 <img width="200" src="/screenshots/connectcomply-screen-1.png" style="float: right; margin: 0 0 1em 1em" />

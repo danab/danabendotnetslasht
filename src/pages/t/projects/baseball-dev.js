@@ -21,6 +21,7 @@ export const query = graphql`
             title
             img
             blurb
+            tags
           }
         }
       }

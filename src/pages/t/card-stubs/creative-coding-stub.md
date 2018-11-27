@@ -6,4 +6,5 @@ title: 'Creative Coding'
 img: '/screenshots/bouncing-balls-screen.png'
 type: 'normal'
 stub: true
+tags: ['js', 'math', 'play']
 ---

@@ -5,6 +5,7 @@ title: 'Mandelbrot'
 type: 'creative'
 img: '/screenshots/mandelbrot-screen.png'
 blurb: 'Somehow I made it through my Math degree without understanding the Mandelbrot Set. I decided to change that.'
+tags: ['js', 'canvas', 'math', 'creative']
 ---
 
 <img width="200" src="/screenshots/mandelbrot-screen.png" style="float: right; margin: 0 0 1em 1em" />

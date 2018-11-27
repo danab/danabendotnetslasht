@@ -6,4 +6,5 @@ title: 'Baseball Dev'
 img: '/screenshots/scorigami-screen.png'
 type: 'normal'
 stub: true
+tags: ['react', 'data-viz', 'baseball', 'play']
 ---

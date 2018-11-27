@@ -5,6 +5,7 @@ title: 'Basebot'
 type: 'baseball'
 img: '/screenshots/basebot-screen.png'
 blurb: 'A Slackbot built to tell you the current baseball scores. Or ask about scores on any (recent) specific date.'
+tags: ['serverless', 'node', 'baseball']
 ---
 
 <a href="https://danab.github.io/basebot/">

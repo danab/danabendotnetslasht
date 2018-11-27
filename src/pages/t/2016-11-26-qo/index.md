@@ -5,6 +5,7 @@ title: 'Predicting the Qualifying Offer'
 type: 'baseball'
 img: '/screenshots/qo-screen.png'
 blurb: 'A simple page visualizing the qualifying offer.'
+tags: ['react', 'data-viz', 'baseball']
 ---
 
 <a href="https://predicting-the-qo.netlify.com"><img width="200" src="/screenshots/qo-screen.png" style="float: right; margin: 0 0 1em 1em" />
