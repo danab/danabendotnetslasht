@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from '../components/layout'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import formatQueryData from '../utils/formatQueryData'
 import PageWithCards from '../components/PageWithCards'
@@ -23,7 +23,7 @@ const Tags = ({ pageContext, data, location }) => {
 }
 
 Tags.propTypes = {
-  pathContext: PropTypes.shape({
+  pageContext: PropTypes.shape({
     tag: PropTypes.string.isRequired,
   }),
   data: PropTypes.shape({
