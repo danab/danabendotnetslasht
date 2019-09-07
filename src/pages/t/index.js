@@ -12,6 +12,11 @@ const IndexPage = ({ location }) => (
           experience, performance, and reliability.
         </p>
         <p>
+          I currently work as a front end web developer at{' '}
+          <a href="https://chess.com">Chess.com</a>. I build new features, fix
+          bugs, and work as part of the front end tooling team.
+        </p>
+        <p>
           I was previously the lead developer at{' '}
           <a href="https://call2test.com">Call2test</a>, a provider of web and
           mobile applications for drug courts. Working as the sole developer I
