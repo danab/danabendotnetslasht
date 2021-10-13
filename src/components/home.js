@@ -5,20 +5,25 @@ const Home = () => (
     <h2> Hello! I'm Dana! </h2>
     <div>
       <p>
-        I am a full stack web developer creating quality web and mobile
-        applications. I create dynamic experiences while focusing on user
-        experience, performance, and reliability.
+        I am a full stack web developer creating high quality web and mobile
+        applications. I build dynamic experiences while focusing on user
+        experience, performance, and reliability. I love to use programming to
+        explore data and answer interesting questions.
       </p>
       <p>
-        I currently work as a front end web developer at{' '}
-        <a href="https://chess.com">Chess.com</a>. I build new features, fix
-        bugs, and work as part of the front end tooling team.
+        I currently work as a full stack developer for the Atlanta Braves
+        Research and Development Department. I work with a small team creating
+        and maintaining web apps used by the front office and field staff.
       </p>
       <p>
-        I was born and have lived most of my life in Maine, but currently reside
-        in Brookline, Massachusetts with my lovely girlfriend. We both like to
-        spend time outdoors, which often includes hiking, mountain biking,
-        snowboarding, and ultimate frisbee.
+        I was born and have lived most of my life in Maine. I currently live in
+        Portland with my lovely girlfriend. We both like to spend time outdoors,
+        which often includes hiking, mountain biking, snowboarding, and ultimate
+        frisbee.
+      </p>
+      <p>
+        Previously I've worked at <a href="https://chess.com">Chess.com</a> and{' '}
+        <a href="https://reconnect.io">Reconnect.io</a>
       </p>
     </div>
     <h3>Code</h3>
@@ -43,10 +48,18 @@ const Home = () => (
           Javascript
           <ul>
             <li>React/Redux, Vue/Vuex</li>
+            <li>D3</li>
             <li>React Native</li>
             <li>Node/Express</li>
-            <li>D3</li>
             <li>ES6/ES2017/ES2018</li>
+          </ul>
+        </li>
+        <li>
+          Python
+          <ul>
+            <li>FastAPI</li>
+            <li>Flask</li>
+            <li>SQLAlchemy</li>
           </ul>
         </li>
         <li>
@@ -56,10 +69,10 @@ const Home = () => (
             <li>Symfony</li>
           </ul>
         </li>
-        <li>MySQL</li>
+        <li>MySQL/SQLServer</li>
         <li>HTML</li>
         <li>CSS</li>
-        <li>AWS</li>
+        <li>AWS: Lambda, S3, Cloudformation, ECS, ECR</li>
       </ul>
     </div>
   </div>
