@@ -10,8 +10,8 @@ const Header = ({ pathName }) => {
     pathName === '/t' || pathName === '/t/'
       ? 'about'
       : pathName === '/t/contact' || pathName === '/t/contact/'
-        ? 'contact'
-        : 'projects'
+      ? 'contact'
+      : 'projects'
   return (
     <Fragment>
       <h1 className={`logo ${page}`}>DB</h1>
